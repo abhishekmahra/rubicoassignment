@@ -36,13 +36,13 @@ body{
 }
 
 .leftbranch{
-    top: 250px;
+    top: 298px;
     height: 40px;
-    width: 342px;
+    width: 135px;
     
     background-color: #83cf9d ;
     position: relative;
-    left: 550px;
+    left: 728px;
     rotate: 45deg;
     z-index: 10;
     border-radius:   50px 0 0 50px ;
@@ -50,13 +50,12 @@ body{
 }
 
 .rightbranch{
-    top: 250px;
+    top: 340px;
     height: 40px;
-    width: 590px; 
-    /* left: 500px; */
+    width: 135px; 
     background-color: #83cf9d ;
     position: relative;
-    left: 550px;
+    left: 824px;
     rotate: 135deg;
     z-index: 10;
     border-radius:   50px 0 0 50px ;
