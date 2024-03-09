@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+}
+
+
+.container{
+    height: 100vh;
+    background-color: #024817;
+    
+}
+
+.circle{
+    height: 38vh;
+    width: 20vw;
+    background-color: #088540;
+    border-radius: 100%;
+    display: flex;
+    position: absolute;
+    top: 16%;
+    left: 39%;
+    right: 50%;
+    z-index: 9;
+}
+
+.midbranch{
+    top: 600px;
+    height: 40px;
+    width: 590px;
+    left: 500px;
+    background-color: #83cf9d ;
+    position: relative;
+    left: 550px;
+    rotate: 90deg;
+    z-index: 10;
+    border-radius:   50px 0 0 50px ;
+}
+
+.leftbranch{
+
+
+}
+
+.rightbranch{
+
+
+
+}

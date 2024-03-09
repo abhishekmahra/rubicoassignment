@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    background-color: #680039;
+}
+
+* body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.upperbar{
+
+    width: 100vw;
+    background-color: #f28bbb;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    
+}
+
+.downbar{
+    width: 35vw;
+    background-color: #f28bbb;
+    height: 150px;
+    position: relative;
+    top: 400px;
+    left: 555px;
+    
+}
+
+.vertical{
+    height: 35vh;
+    background-color: #680039;
+    position: relative;
+    rotate: 90deg;
+    z-index: 9;
+    bottom: 374px;
+}
