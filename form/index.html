@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+    <div class="container">
+      
+        <div class="img">
+
+        </div>
+
+        <form action="">
+            <label for="fname">Firstname
+                <input type="text" id="fname" name="firstname" placeholder="Enter your firstname">
+            </label>
+            <br>
+
+            <label for="lname">lastname
+                <input type="text" id="lname" name="lastname" placeholder="Enter your lastname" required>
+            </label>
+            <br>
+
+            <label for="dob">DOB
+                <input type="date" id="dob"  name="dob" required>
+            </label>
+            <br>
+
+            <label for="state">Choose your state
+                <select name="state" id="state">
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Uttarakhand">Uttarpradesh</option>
+                    <option value="Uttarakhand">Haryana</option>
+                </select>
+            </label>
+            <br>
+
+
+            <label for="address">User Address
+                <input type="textarea" id="address">
+            </label>
+            <br>
+
+
+            <label for="bloodgroup">Choose your bloodgroup
+                <select name="bloodgroup" id="bloodgroup">
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="O+">O+</option>
+                </select>
+            </label>
+
+            <button type="button" onclick="myFunction()" >Submit</button>
+        </form>
+
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
