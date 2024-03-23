@@ -1,21 +1,11 @@
 *{
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: 'nunito','sans-serif';  */
-
     scroll-behavior: smooth;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100,
-    "YTLC" 500;
+    "wdth" 100;
 }
 
 :root{
@@ -26,8 +16,9 @@
 }
 
 html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+    font-size: 63%;
+    margin: 0%;
+    padding: 0%;
 }
 
 body{
@@ -42,8 +33,6 @@ section{
 
 .header{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 2rem 9%;
     background: var(--bg-color);
@@ -54,7 +43,7 @@ section{
 }
 
 .logo{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--text-color);
     font-weight: 700;
     cursor: default;
@@ -67,11 +56,6 @@ section{
     font-weight: 700;
 }
 
-.navbar a:hover,
-.navbar a.active{
-    color: var(--text-color);
-
-}
 
 
 #menu-icon{
@@ -130,6 +114,10 @@ span{
     font-size: 1.6rem;
 }
 
+.home-content h3{
+    font-size: 1.7rem;
+}
+
 .social-media a{
     display: inline-flex;
     justify-content: center;
@@ -153,16 +141,12 @@ span{
 }
 
 .btn{
-    display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
-    color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
-    transition: .5s ease-out;
 }
 
 .btn hover{
@@ -174,8 +158,16 @@ span{
     justify-content: center;
 }
 
+.about-content h3{
+    font-size: 2.0rem;
+}
+
+.about-content h2{
+    font-size: 2.6rem;
+}
+
 .about-content p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 2rem 0 3rem;
 }
 
@@ -245,6 +237,7 @@ span{
 
 .portfolio-box img{
     width: 100%;
+    gap: 2rem;
     transition: .5s ease;
     opacity: 0.7;
 }
@@ -391,14 +384,18 @@ span{
     font-size: 2.4rem;
     color: var(--snd-bf-color);
 }
-   @media (max-width:1200px)
+
+
+   @media only screen and (max-width:1200px)
    {
     html{
         font-size: 55%;
     }
 }
 
-   @media (max-width: 991px){
+
+
+   @media only screen and (max-width: 991px){
     .header{
         padding: 10rem 3%;
     }
@@ -421,7 +418,7 @@ span{
 }
 
 
-@media (max-width: 768px)
+@media only screen and (max-width: 768px)
 {
     #menu-icon{
         display: block;
@@ -432,11 +429,11 @@ span{
     }
 
     .home-content h3{
-        font-size:  2.6rem;
+        font-size:  1.6rem;
     }
 
     .home-content h1{
-        font-size: 5rem;
+        font-size: 1rem;
     }
 
     .home-img img{
@@ -459,7 +456,28 @@ span{
 
 
 .about-img img{
-    width: 90vw;
-    margin-top: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+    /* padding: .2rem; */
+   
 }
 
+
+.about-content{
+   margin-left:1rem;
+    padding: .2rem;
+    overflow: scroll;
+    scrollbar-width: 0%;
+    height: auto;
+}
+
+.about-content::-webkit-scrollbar {
+    display: none;
+    /* will work with Safari and Chrome only */
+}
+
+
+.about{
+    display: flex;
+  
+}
